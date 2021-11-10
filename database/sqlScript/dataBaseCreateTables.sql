@@ -3,7 +3,7 @@ id INT PRIMARY KEY NOT NULL,
 nomMethode VARCHAR(20) NOT NULL,
 proba INT NOT NULL);
 
-CREATE TABLE pokemon (    
+CREATE TABLE pokemon (
 id INT PRIMARY KEY NOT NULL,
 nomPoke VARCHAR(30) NOT NULL,
 pathToSprite VARCHAR(45) NOT NULL,
@@ -19,7 +19,7 @@ methode VARCHAR(20) NOT NULL,
 nombre INT NOT NULL,
 generation VARCHAR(20)NOT NULL);
 
-CREATE TABLE captures(
+CREATE TABLE captures (
 id INT PRIMARY KEY NOT NULL,
 username VARCHAR(20) NOT NULL,
 numero INT NOT NULL,

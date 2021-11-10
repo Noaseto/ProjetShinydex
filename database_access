@@ -1,1 +1,0 @@
-sudo -u postgres -H -- psql -d ShinyDex -c "Requete sql classique"

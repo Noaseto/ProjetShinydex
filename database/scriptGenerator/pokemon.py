@@ -1,6 +1,11 @@
 from functions import pathToFile
 
-language = "francais.txt"
+choix = int(input("1 for english, 2 for french\n"))
+if(choix == 1):
+    language = "english.txt"
+else:
+    language = "francais.txt"
+
 languagePath = "../../pokemonName/"+language
 listePoke = open(languagePath,'r')
 pokemons = listePoke.readlines()

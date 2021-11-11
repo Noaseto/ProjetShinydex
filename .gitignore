@@ -1,9 +1,12 @@
 # remove the 2980 sprites but keep the folder
 /home_sprites/*
 !/home_sprites/.gitkeep
+
 # remove the database (you need to run the script to create it)
 /database/shinyDex
+
 # remove dataBaseFillPokemon.sql because it is auto generated
 /database/sqlScript/dataBaseFillPokemon.sql
+
 # remove pycache
 /database/scriptGenerator/__pycache__
